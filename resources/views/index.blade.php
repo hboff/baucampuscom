@@ -3,152 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Baucampus</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
     <link rel="stylesheet" href="style-timeline.css">
-        <link rel="stylesheet" href="/w3.css">
+    <link rel="stylesheet" href="/w3.css">
+    <link rel="stylesheet" href="/osk-style.css">
+
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="https://baucampus.ch/style.css">
     <link rel="stylesheet" type="text/css" href="/kontakt-style-neu.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
-    <style>
-      .w3-osk-customs{z-index:5000;   backdrop-filter: invert(.2) blur(10px);}
-       .viewport-header {
-         position: relative;
-         height: 100%;
-         text-align: center;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-      }
-       html {
-         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-         font-size: 150%;
-         line-height: 1.4;
-      } 
-       .viewport-header {
-         position: relative;
-         height: 100%;
-         text-align: center;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-      }
-       h1 {
-         font-family: 'Syncopate', sans-serif;
-         color: white;
-         text-transform: uppercase;
-         letter-spacing: 2vw;
-         line-height: 1.5;
-         font-size: 3vw;
-         text-align: center;
-      }
-       h1 span {
-         display: block;
-         font-size: 8vw;
-         letter-spacing: -1vw;
-      }
-      
-      .demo a {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        z-index: 2;
-        display: inline-block;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
-        color: #fff;
-        font : normal 400 20px/1 'Josefin Sans', sans-serif;
-        letter-spacing: .1em;
-        text-decoration: none;
-        transition: opacity .3s;
-      }
-      
-        .demo a:hover {
-        opacity: .5;
-      }
-      
-      #section03 a {
-        padding-top: 60px;
-      }
-      #section03 a span {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 46px;
-        height: 46px;
-        margin-left: -23px;
-        border: 1px solid #fff;
-        border-radius: 100%;
-        box-sizing: border-box;
-      }
-      #section03 a span::after {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        content: '';
-        width: 16px;
-        height: 16px;
-        margin: -12px 0 0 -8px;
-        border-left: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        box-sizing: border-box;
-      }
-      #section03 a span::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        content: '';
-        width: 44px;
-        height: 44px;
-        box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-        border-radius: 100%;
-        opacity: 0;
-        -webkit-animation: sdb03 3s infinite;
-        animation: sdb03 3s infinite;
-        box-sizing: border-box;
-      }
-      @-webkit-keyframes sdb03 {
-        0% {
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        60% {
-          box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-          opacity: 0;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      @keyframes sdb03 {
-        0% {
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        60% {
-          box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-          opacity: 0;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-      .container video {
-          display: flex;
-          justify-content: center;
-          margin-top: 80px;
-          margin-bottom: 80px;
-        }
-
-      </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
 </head>
 <body id="myPage">
 
@@ -171,7 +35,7 @@
                 style="padding-left:100px;">Baucampus</a>
             <a href="https://baucampus.com/kontakt" class=" w3-hide-small w3-right hover-underline-animation oskkk"
                 style="padding-right:100px;">Kontakt</a>
-            <a href="#5" class=" w3-hide-small w3-right hover-underline-animation oskkk link-light">Vorteile</a>
+            <a href="#5" class=" w3-hide-small w3-right hover-underline-animation oskkk">Vorteile</a>
             <a href="#4" class=" w3-hide-small w3-right hover-underline-animation oskkk">Team</a>
             <a href="#3" class=" w3-hide-small w3-right hover-underline-animation oskkk">Netzwerk</a>
             <a href="#2" class=" w3-hide-small w3-right hover-underline-animation oskkk">Vision</a>
@@ -385,6 +249,68 @@
 
             </div>
         </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Plans</h3>
+      <p>Choose a pricing plan that fits your needs.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>10GB</b> Storage</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
         <div id="vision" class="w3-container w3-padding-64"
             style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
             <div class="w3-row">
