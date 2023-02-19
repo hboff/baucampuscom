@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Vertical Timeline</title>
+  <title>Baucampus</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
     <link rel="stylesheet" href="style-timeline.css">
@@ -255,11 +255,16 @@
                             <img src="pictures/1.jpg" style="width: 100%;" alt="">
                             <h2>Über Uns</h2>
                         </div>
-                        <div class="date">1 MAY 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 1</div>
+                        <p>Baucampus betreibt Webseiten im deutschsprachigen Raum zur Akquise von Aufträgen in den Bereichen:</p>
+                        <ul>
+                            <li>Baubegleitende Qualitätssicherung</li>
+                            <li>Bauschäden</li>
+                            <li>Energieberatung</li>
+                            <li>Hauskaufberatung</li>
+                            <li>Immobilienbewertung</li>
+                            <li>Schimmelpilzschäden</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -272,11 +277,13 @@
                             <img src="pictures/2.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">25 MAY 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 2</div>
+                        <p>Baucampus bietet seinen Partnern:</p>
+                        <ul>
+                            <li>professioneller Internetauftritt auf Baucampus -  Webseite und regionale Sachverständigen - Webseiten</li>
+                            <li>umfangreiches Unterlagenpaket erleichtert den Einstieg in das Baucampus-Netzwerk und das Sachverständigenwesen</li>
+
+                        </ul>
                     </div>
 
                 </div>
@@ -290,11 +297,14 @@
                             <img src="pictures/3.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">3 JUN 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 3</div>
+                        <p>Netzwerkgedanke nimmt eine zentrale Stellung bei Baucampus ein und wird gelebt</p>
+                        <ul>
+                            <li>Netzwerk aus Experten</li>
+                            <li>Hilfestellung bei Sonderfällen in der Gutachtenbearbeitung</li>
+                            <li>gemeinsame Schulungen/Workshops</li>
+                            <li>Servicepartner</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -307,11 +317,13 @@
                             <img src="pictures/4.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">22 JUN 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 4</div>
+                        <p>Kundenbindung/Kundenzufriedenheit</p>
+                        <ul>
+                            <li>kompetente, kundenorientierte Vorort-Beratung</li>
+                            <li>zügige Bearbeitung der Gutachtenaufträge</li>
+                            <li>kundenfreundliche, überschaubare Festpreispolitik</li>
+                        </ul>
                     </div>
 
                 </div>
@@ -325,11 +337,8 @@
                             <img src="pictures/5.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">10 JULY 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 5</div>
+                        <p>Baucampus - wie wir arbeiten. Das Zusammenspiel von Bausachverständigen und Kunden ist uns wihtig. Daher treten die Kunden direket mit unseren Partnern in Kontakt, per Telefon oder E-mail. Die Partner nehmen die Aufträge selbst an und bieten ihre Leistungen dem Kunden selbständig an. Es gibt keine Mindestauftragsverpflichtung. Auftragsannahme, die terminliche Festlegung und ihre Auftragsauslastung bleiben in ihrer Hand.</p>
                     </div>
                 </div>
 
@@ -342,11 +351,16 @@
                             <img src="pictures/6.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">22 JUN 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 6</div>
+                        <p>Was wir brauche. Ihr professioneller Internetauftritt mit Baucampus ist leicht zu verwirklichen: Wir benötigen</p>
+                            <ul>
+                                <li>ein Foto von Ihnen </li>
+                                <li>eine Telefonnummer</li>
+                                <li>Lebenslauf</li>
+                                <li>fachliche Eignung</li>
+                                <li>Zustimmung zur Veröffentlichung ihrer Daten auf Baucampus</li>
+                            </ul>
+                        <p>Sie erhalten dann umgehend eine personalisierte Baucampus E-mailadresse und die Webseiten in ihrer Region werden mit ihren Kontaktdaten versehen</p>
                     </div>
 
                 </div>
@@ -360,48 +374,12 @@
                             <img src="pictures/7.jpg" style="width: 100%;" alt="">
                             <h2>Card Title</h2>
                         </div>
-                        <div class="date">10 JULY 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                        <div class="date">Step 7</div>
+                        <p>Honorierung Für die Honorierung unserer Leistungen stehen Ihnen 2 Modelle zur Verfügung (A) 15%, (B) 400€</p>
                     </div>
                 </div>
 
-                <div class="timeline-item">
 
-                    <div class="timeline-img"></div>
-
-                    <div class="timeline-content timeline-card js--fadeInRight">
-                        <div class="timeline-img-header">
-                            <img src="pictures/8.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
-                        </div>
-                        <div class="date">22 JUN 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
-                    </div>
-
-                </div>
-
-                <div class="timeline-item">
-
-                    <div class="timeline-img"></div>
-
-                    <div class="timeline-content timeline-card js--fadeInLeft">
-                        <div class="timeline-img-header">
-                            <img src="pictures/9.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
-                        </div>
-                        <div class="date">10 JULY 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias
-                            cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum
-                            excepturi amet in dolores. Alias, ullam.</p>
-                        <a class="bnt-more" href="javascript:void(0)">More</a>
-                    </div>
-                </div>
 
 
 
