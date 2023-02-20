@@ -23,10 +23,7 @@
        h1 {
          font-family: 'Syncopate', sans-serif;
          color: white;
-         text-transform: uppercase;
-         letter-spacing: 2vw;
          line-height: 1.5;
-         font-size: 3vw;
          text-align: center;
       }
        h1 span {
@@ -34,19 +31,7 @@
          font-size: 8vw;
          letter-spacing: -1vw;
       }
-
-      a:hover{
-        color: white;
-        text-decoration: none;
-
-      }
-      
-     p, li{
-            font-size: 120%
-        
-        }
-
-    
+         
       .demo a {
         position: absolute;
         bottom: 20px;
@@ -145,3 +130,21 @@
           margin-top: 80px;
           margin-bottom: 80px;
         }
+
+      .container-timeline {
+        max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+      }
+
+      .container-plans {
+        max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+      }
+
+      .container-plans ul {
+        list-style: none;
+      }
+
+      

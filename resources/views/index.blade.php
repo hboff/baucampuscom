@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="de" >
 <head>
   <meta charset="UTF-8">
   <title>Baucampus</title>
@@ -24,6 +24,12 @@
 		 transform: translateX(calc(-250px * 7));
 	}
 }
+
+a:hover{
+        color: white;
+        text-decoration: none;
+
+      }
  .slider {
 	 background: white;
 	 box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
@@ -225,8 +231,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 <a href="#vision"><span></span>Scroll</a>
             </div>
         </div>
-
-        <div id="vision" class="w3-container w3-padding-64"
+<div id="vision" class="container" style="padding-top:3%;"><h1>Baucampus - Gemeinsam in eine bessere Zukunft</h1></div>
+        <div class="w3-container"
             style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
             <div class="w3-row">
                 <div class="w3-half w3-container">
@@ -247,7 +253,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
         <!-- partial:index.partial.html -->
         <div id="timeline" class="timeline">
-            <div class="container">
+            <div class="container-timeline">
                 <div class="timeline-item">
 
                     <div class="timeline-img"></div>
@@ -383,9 +389,9 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             </div>
         </div>
   <!-- Grid -->
-  <div class="w3-row-padding" id="plans">
-    <div class="w3-center w3-padding-64">
-       <h3></h3>Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!
+  <div class="w3-row-padding container-plans" id="plans">
+    <div class="w3-center">
+       <h3>Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!</h3>
         <p>Werden Sie Teil unseres exklusiven Expertennetzwerks und profitieren Sie von einer risikolosen und fairen Partnerschaft. Treten Sie einer starken Gemeinschaft bei, die geballtes Fachwissen und modernste Geschäftsstrukturen vereint. Seien Sie Teil einer Elite-Gruppe von Bausachverständigen und sichern Sie sich jetzt schnell Ihren Platz in unserem stetig wachsenden Netzwerk. Werden Sie Teil der besten und erweitern Sie Ihr Netzwerk! (Schließen Sie sich den Besten an, werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!")
 </p>
     <h3>Partnerschafts-Modelle</h3>
@@ -407,7 +413,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
       </ul>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+    <div class="w3-third w3-margin-bottom" style="padding-right:10px; padding-left:10px;">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Classic</li>
         <li class="w3-padding-16"><b>Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
@@ -444,7 +450,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   </div>
 
 
-        <div id="vision" class="w3-container w3-padding-64"
+        <div id="vision" class="w3-container"
             style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
             <div class="w3-row">
                 <div class="w3-half w3-container">

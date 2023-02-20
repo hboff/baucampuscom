@@ -56,10 +56,6 @@ textarea {
   resize: none;
 }
 
-ul {
-  list-style: none;
-}
-
 body {
   font: 18px/1.5 "Montserrat", sans-serif;
   color: var(--white);
