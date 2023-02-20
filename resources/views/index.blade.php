@@ -13,6 +13,142 @@
     <link rel="stylesheet" type="text/css" href="https://baucampus.ch/style.css">
     <link rel="stylesheet" type="text/css" href="/kontakt-style-neu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style >
+ @keyframes scroll {
+	 0% {
+		 transform: translateX(0);
+	}
+	 100% {
+		 transform: translateX(calc(-250px * 7));
+	}
+}
+ .slider {
+	 background: white;
+	 box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	 height: 100px;
+	 margin: auto;
+	 overflow: hidden;
+	 position: relative;
+ 	 filter: grayscale(30%);
+
+}
+ .slider::before, .slider::after {
+	 background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+	 content: "";
+	 height: 100px;
+	 position: absolute;
+	 width: 200px;
+	 z-index: 2;
+}
+ .slider::after {
+	 right: 0;
+	 top: 0;
+	 transform: rotateZ(180deg);
+}
+ .slider::before {
+	 left: 0;
+	 top: 0;
+}
+ .slider .slide-track {
+	 animation: scroll 40s linear infinite;
+	 display: flex;
+	 width: calc(250px * 14);
+}
+ .slider .slide {
+	 height: 100px;
+	 width: 250px;
+}
+ </style>
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background: rgba(255, 255, 255, .9); 
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 40%;
+  right:20%;
+  width: 20%;
+  text-align: center;
+w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, .9); color:black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
 </head>
 <body id="myPage">
 
@@ -82,6 +218,7 @@
 
     <body>
         <div class="w3-display-container w3-animate-opacity w3-center" id="1">
+
             <img src="pictures/8.jpg" alt="Mein Haus"
                 style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
             <div id="section03" class="demo">
@@ -97,6 +234,7 @@
                         style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
                 </div>
                 <div class="w3-half w3-container">
+                            <p>Baucampus - Gemeinsam in eine bessere Zukunft</p>
 
                     <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kunden finden
                         Experten - Experten finden Kunden</h2>
@@ -242,32 +380,26 @@
                         <p>Honorierung Für die Honorierung unserer Leistungen stehen Ihnen 2 Modelle zur Verfügung (A) 15%, (B) 400€</p>
                     </div>
                 </div>
-
-
-
-
-
             </div>
         </div>
-
-
   <!-- Grid -->
   <div class="w3-row-padding" id="plans">
     <div class="w3-center w3-padding-64">
-      <h3>Pricing Plans</h3>
-      <p>Choose a pricing plan that fits your needs.</p>
+       <h3></h3>Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!
+        <p>Werden Sie Teil unseres exklusiven Expertennetzwerks und profitieren Sie von einer risikolosen und fairen Partnerschaft. Treten Sie einer starken Gemeinschaft bei, die geballtes Fachwissen und modernste Geschäftsstrukturen vereint. Seien Sie Teil einer Elite-Gruppe von Bausachverständigen und sichern Sie sich jetzt schnell Ihren Platz in unserem stetig wachsenden Netzwerk. Werden Sie Teil der besten und erweitern Sie Ihr Netzwerk! (Schließen Sie sich den Besten an, werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!")
+</p>
+    <h3>Partnerschafts-Modelle</h3>
+    <p>Wählen Sie das Partnerschafts-Modell, das am besten zu Ihren Bedürfnissen passt.</p>
     </div>
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>10GB</b> Storage</li>
-        <li class="w3-padding-16"><b>10</b> Emails</li>
-        <li class="w3-padding-16"><b>10</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Starter</li>
+        <li class="w3-padding-16"><b>Aufnahme in das Baucampus Gutachterverzeichnis</li>
+        <li class="w3-padding-16"><b>Listung als Servicepartner(Baucampus intern)</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 10</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide">kostenlos</h2>
+          <span class="w3-opacity"></span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
@@ -277,14 +409,15 @@
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Classic</li>
+        <li class="w3-padding-16"><b>Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
+        <li class="w3-padding-16"><b>Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</li>
+        <li class="w3-padding-16"><b>Regelmäßige Schulungen und Unterstützung in des Bauwesens</li>
+        <li class="w3-padding-16"><b>Persönlicher Support und Betreuung</li>
+        <li class="w3-padding-16"><b>Feste monatliche Pauschale</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide">400 €</h2>
+          <span class="w3-opacity">pro Monat</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
@@ -294,14 +427,14 @@
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>50GB</b> Storage</li>
-        <li class="w3-padding-16"><b>50</b> Emails</li>
-        <li class="w3-padding-16"><b>50</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Flex</li>
+        <li class="w3-padding-16"><b>Aufnahme in das Baucampus Gutachterverzeichnis</li>
+        <li class="w3-padding-16"><b>Zugang zu Vorlagen & Datenbanken</li>
+        <li class="w3-padding-16"><b>Professionelles Online-Marketing</li>
+        <li class="w3-padding-16"><b>Regionale Webseite im Internet</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide"> 15%</h2>
+          <span class="w3-opacity">Umsatzbeteiligung</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
@@ -427,6 +560,82 @@
 
         </script>
 
+<!-- Slider Grid -->
+<h2>Kooperationspartner</h2>
+<div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<a href="https://bauherrenverband.com/" title="Der Bauherrenverband"><img src="https://gutachterverband.com/bauherrenverband-small.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://eigenheimverband.de/" title="Eigenheimverband"><img src="https://gutachterverband.com/eigenheimverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://gutachterverband.com/" title="Der Gutachterverband"><img src="https://gutachterverband.com/gutachterverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://architekturinstitut.com/" title="Architekturinstitut"><img src="https://gutachterverband.com/architekturinstitut.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://mein-haus.eu/" title="Mein Haus"><img src="https://gutachterverband.com/mein-haus.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://baucampus.de/" title="Baucampus"><img src="https://gutachterverband.com/baucampus.png" height="100" width="250" alt="" /></a>
+		</div>
+
+		<div class="slide">
+			<a href="https://premiumhandwerker.com/" title="Der Premiumhandwekerer"><img src="https://gutachterverband.com/premiumhandwerker.png" height="100" width="250" alt="" /></a>
+		</div>
+
+		<div class="slide">
+			<a href="https://bauherrenverband.com/" title="Der Bauherrenverband"><img src="https://gutachterverband.com/bauherrenverband-small.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://eigenheimverband.de/" title="Eigenheimverband"><img src="https://gutachterverband.com/eigenheimverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://gutachterverband.com/" title="Der Gutachterverband"><img src="https://gutachterverband.com/gutachterverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://architekturinstitut.com/" title="Architekturinstitut"><img src="https://gutachterverband.com/architekturinstitut.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://mein-haus.eu/" title="Mein Haus"><img src="https://gutachterverband.com/mein-haus.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://baucampus.de/" title="Baucampus"><img src="https://gutachterverband.com/baucampus.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://premiumhandwerker.com/" title="Der Premiumhandwekerer"><img src="https://gutachterverband.com/premiumhandwerker.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://bauherrenverband.com/" title="Der Bauherrenverband"><img src="https://gutachterverband.com/bauherrenverband-small.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://eigenheimverband.de/" title="Eigenheimverband"><img src="https://gutachterverband.com/eigenheimverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://gutachterverband.com/" title="Der Gutachterverband"><img src="https://gutachterverband.com/gutachterverband.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://architekturinstitut.com/" title="Architekturinstitut"><img src="https://gutachterverband.com/architekturinstitut.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://mein-haus.eu/" title="Mein Haus"><img src="https://gutachterverband.com/mein-haus.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://baucampus.de/" title="Baucampus"><img src="https://gutachterverband.com/baucampus.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+			<a href="https://premiumhandwerker.com/" title="Der Premiumhandwekerer"><img src="https://gutachterverband.com/premiumhandwerker.png" height="100" width="250" alt="" /></a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
         <footer style="padding-top:2vh; color:#9fa3a7; background-color:#F5F5F8; font-size:16px;">
 
             <div class="w3-row " style="margin-bottom:5vh;padding-left:10vh;">
@@ -479,6 +688,36 @@
         <!-- partial -->
 
     </body>
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script><script  src="script.js"></script>
 
