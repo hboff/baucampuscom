@@ -58,8 +58,7 @@ textarea {
 
 body {
   font: 18px/1.5 "Montserrat", sans-serif;
-  color: var(--white);
-}
+  
 
 .container {
   max-width: 800px;

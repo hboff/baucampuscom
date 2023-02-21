@@ -240,17 +240,15 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 <a href="#vision"><span></span>Scroll</a>
             </div>
         </div>
-<div id="vision" class="container" style="padding-top:3%;"><h1>Baucampus - Gemeinsam in eine bessere Zukunft</h1></div>
-        <div class="w3-container"
-            style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
-            <div class="w3-row">
-                <div class="w3-half w3-container">
+
+        <div id="vision" class="container-timeline mb-5 pb-5 mt-5 pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex">
                     <img src="pictures/9.jpg" alt="Mein Haus"
                         style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
                 </div>
-                <div class="w3-half w3-container">
-                    <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kunden finden
-                        Experten - Experten finden Kunden</h2>
+                <div class="col-sm-12 col-md-6 d-flex flex-column">
+                    <h2 class="mt-0 pt-0" style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kunden finden Experten - Experten finden Kunden</h2>
                     <p>Wir glauben an die Kraft der Zusammenarbeit und sind der Meinung, dass wir gemeinsam mehr
                         erreichen können, als wir es alleine jemals könnten. Außerdem setzen wir auf Qualität: Wir
                         arbeiten nur mit Experten zusammen, die auf ihrem Gebiet qualifiziert und erfahren sind.</p>
@@ -265,10 +263,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInLeft">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInLeft">
                         <div class="timeline-img-header">
-                            <img src="pictures/1.jpg" style="width: 100%;" alt="">
-                            <h2>Über Uns</h2>
+                            <img src="pictures/step-1.png" style="width: 100%;" alt="">
+                            <h2 class="display-3">Über Uns</h2>
                         </div>
                         <div class="date">Step 1</div>
                         <p>Baucampus betreibt Webseiten im deutschsprachigen Raum zur Akquise von Aufträgen in den Bereichen:</p>
@@ -287,10 +285,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
-                            <img src="pictures/2.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
+                            <img src="pictures/step-2.png" style="width: 100%;" alt="">
+                            <h2 class="display-3">Card Title</h2>
                         </div>
                         <div class="date">Step 2</div>
                         <p>Baucampus bietet seinen Partnern:</p>
@@ -307,10 +305,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInLeft">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInLeft">
                         <div class="timeline-img-header">
-                            <img src="pictures/3.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
+                            <img src="pictures/step-3.jpg" style="width: 100%;" alt="">
+                            <h2 class="display-3">Card Title</h2>
                         </div>
                         <div class="date">Step 3</div>
                         <p>Netzwerkgedanke nimmt eine zentrale Stellung bei Baucampus ein und wird gelebt</p>
@@ -327,10 +325,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
-                            <img src="pictures/4.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
+                            <img src="pictures/step-4.jpg" style="width: 100%;" alt="">
+                            <h2 class="display-3">Card Title</h2>
                         </div>
                         <div class="date">Step 4</div>
                         <p>Kundenbindung/Kundenzufriedenheit</p>
@@ -347,10 +345,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInLeft">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInLeft">
                         <div class="timeline-img-header">
-                            <img src="pictures/5.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
+                            <img src="pictures/step-5.jpg" style="width: 100%;" alt="">
+                            <h2 class="display-3">Card Title</h2>
                         </div>
                         <div class="date">Step 5</div>
                         <p>Baucampus - wie wir arbeiten. Das Zusammenspiel von Bausachverständigen und Kunden ist uns wihtig. Daher treten die Kunden direket mit unseren Partnern in Kontakt, per Telefon oder E-mail. Die Partner nehmen die Aufträge selbst an und bieten ihre Leistungen dem Kunden selbständig an. Es gibt keine Mindestauftragsverpflichtung. Auftragsannahme, die terminliche Festlegung und ihre Auftragsauslastung bleiben in ihrer Hand.</p>
@@ -361,10 +359,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                     <div class="timeline-img"></div>
 
-                    <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
-                            <img src="pictures/6.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
+                            <img src="pictures/step-6.jpg" style="width: 100%;" alt="">
+                            <h2 class="display-3">Card Title</h2>
                         </div>
                         <div class="date">Step 6</div>
                         <p>Was wir brauche. Ihr professioneller Internetauftritt mit Baucampus ist leicht zu verwirklichen: Wir benötigen</p>
@@ -380,33 +378,20 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                 </div>
 
-                <div class="timeline-item">
-
-                    <div class="timeline-img"></div>
-
-                    <div class="timeline-content timeline-card js--fadeInLeft">
-                        <div class="timeline-img-header">
-                            <img src="pictures/7.jpg" style="width: 100%;" alt="">
-                            <h2>Card Title</h2>
-                        </div>
-                        <div class="date">Step 7</div>
-                        <p>Honorierung Für die Honorierung unserer Leistungen stehen Ihnen 2 Modelle zur Verfügung (A) 15%, (B) 400€</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
   <!-- Grid -->
 
   
-        <div class="w3-container"
-            style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
-            <div class="w3-row">
-                <div class="w3-half w3-container">
-                    <img src="pictures/9.jpg" alt="Mein Haus"
+  <div class="container-timeline mb-5 pb-5 mt-5 pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex">
+                    <img src="pictures/teil-baucampus.jpg" alt="Mein Haus"
                         style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
                 </div>
-                <div class="w3-half w3-container">
-                    <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!</h2>
+                <div class="col-sm-12 col-md-6 d-flex flex-column">
+                    <h2 class="mt-0 pt-0" style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Werde Teil von Baucampus</h2>
                     <p>Werden Sie Teil unseres exklusiven Expertennetzwerks und profitieren Sie von einer risikolosen und fairen Partnerschaft. Treten Sie einer starken Gemeinschaft bei, die geballtes Fachwissen und modernste Geschäftsstrukturen vereint. Seien Sie Teil einer Elite-Gruppe von Bausachverständigen und sichern Sie sich jetzt schnell Ihren Platz in unserem stetig wachsenden Netzwerk. Werden Sie Teil der besten und erweitern Sie Ihr Netzwerk! (Schließen Sie sich den Besten an, werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!")
 </p>
                 </div>
@@ -422,26 +407,27 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     </div>
 
     <div class="row">
-        <div class="col-4 d-flex">
-    <div class="card">
+        <div class="col-sm-12 col-md-4 d-flex">
+    <div class="col card mb-5">
   <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
    <h3>Baucampus Starter</h3>
   </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center text-dark">
+  <ul class="list-group list-group-flush text-center text-dark pb-5">
     <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichnis</li>
     <hr>
     <li class="list-group-item">Listung als Servicepartner(Baucampus intern)</li>
-    <hr>
-    <li class="list-group-item">kostenlos</li>
   </ul>
   <br>
-  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+  <div class="position-absolute bottom-0 start-50 translate-middle-x">
+  <p class="text-dark text-center"><b>kostenlos</b><p>
+  <a href="#" class="btn btn-success">Sign Up</a>
+    </div>
     </div>
 </div>
     </div>
    
-    <div class="col-4 d-flex">
-    <div class="card">
+    <div class="col-sm-12 col-md-4 d-flex">
+    <div class="col card mb-5">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
   <h3>Baucampus Classic</h3>
   </div><div class="card-body">
@@ -455,20 +441,22 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     <li class="list-group-item">Persönlicher Support und Betreuung</li>
     <hr>
     <li class="list-group-item">Feste monatliche Pauschale</li>
-    <hr>
-    <li class="list-group-item"><b> 400 €</b> pro Monat</li>
   </ul>
   <br>
-  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+  <div class="position-absolute bottom-0 start-50 translate-middle-x">
+  <p class="text-dark text-center"><b> 400 €</b> pro Monat<p>
+  <a href="#" class="btn btn-success">Sign Up</a>
+    </div>
     </div>
 </div>
     </div>
-    <div class="col-4 d-flex">
-    <div class="card">
+
+    <div class="col-sm-12 col-md-4 d-flex">
+    <div class="col card mb-5">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
   <h3>Baucampus Flex</h3>
   </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center">
+  <ul class="list-group list-group-flush text-center pb-5">
     <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichniso</li>
     <hr>
     <li class="list-group-item">Zugang zu Vorlagen & Datenbanken</li>
@@ -476,33 +464,35 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     <li class="list-group-item">Professionelles Online-Marketing</li>
     <hr>
     <li class="list-group-item">Regionale Webseite im Internet</li>
-    <hr>
-    <li class="list-group-item"><b>15%</b> Umsatzbeteiligung</li>
   </ul>
   <br>
-  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+  <div class="position-absolute bottom-0 start-50 translate-middle-x">
+  <p class="text-dark text-center"><b>15%</b> Umsatzbeteiligung<p>
+  <a href="#" class="btn btn-success">Sign Up</a>
+    </div>
     </div>
 </div>
     </div>
     </div>
+
+    </div>
     </div>
     </div>
 
-
-        <div class="w3-container"
-            style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
-            <div class="w3-row">
-                <div class="w3-half w3-container">
+    <div class="container" style="padding-top:3%;"><h2 class="display-2">Baucampus - Gemeinsam in eine bessere Zukunft</h2></div>
+    <div class="container-timeline mb-5 pb-5 mt-5 pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex">
                     <img src="pictures/13.jpg" alt="Mein Haus"
                         style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
                 </div>
-                <div class="w3-half w3-container">
-
-                    <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Qualität hat ein Gesicht</h2>
+                <div class="col-sm-12 col-md-6 d-flex flex-column">
+                    <h2 class="mt-0 pt-0" style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Qualität hat ein Gesicht</h2>
                     <p>Baucampus trägt dazu bei, die Zusammenarbeit von Experten effizienter und effektiver zu gestalten. Wenn Sie ein Experte auf Ihrem Gebiet sind, ermutigen wir Sie, sich uns anzuschließen!</p>
                 </div>
             </div>
         </div>
+        
         <video id="video" width="100%" controls>
             <source src="alterminddesktop.mp4" type="video/mp4">
             Your browser does not support HTML video.
@@ -514,7 +504,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
       <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
         <div class="card-body p-0">
           <div class="row g-0">
-            <div class="col-4 d-flex bg-image"><img src="pictures/13.jpg" alt="" class="img-fluid" ></div>
+            <div class="col-4 d-flex bg-image"><img src="pictures/kontakt.jpg" alt="" class="img-fluid" ></div>
             <div class="col-8 p-5">
               
                 <h3 class="text-center">Kontakt</h3>
