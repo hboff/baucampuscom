@@ -6,7 +6,15 @@
   transform: scale(1.15);
 }
 
+.container-plans .card{
+  box-shadow: 15px 25px 25px -15px rgba(0, 0, 0, 0.8);
+}
 
+.card hr {
+  color:black;
+  margin-top:1%;
+  margin-bottom:1%;
+}
 
       .w3-osk-customs{z-index:5000;   backdrop-filter: invert(.2) blur(10px);}
        .viewport-header {
@@ -152,11 +160,6 @@
   margin: 0 auto;
   padding: 0 1.5rem;
       }
-
-      .container-plans ul {
-        list-style: none;
-      }
-
       
       .container-plans h2:after {
       content: "";

@@ -412,11 +412,11 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
         </div>
-
+<div style="background-color:#363636; padding-bottom: 5%;">
   <div class="container-plans" id="plans">
    
 <div class="w3-center pb-5 pt-5">
-    <h2 class="border-bottom:solid 5px #c4c4c4;">Partnerschafts-Modelle</h2>
+    <h2 class="border-bottom:solid 5px #c4c4c4; text-white">Partnerschafts-Modelle</h2>
     <p>Wählen Sie das Partnerschafts-Modell, das am besten zu Ihren Bedürfnissen passt.</p>
     
     </div>
@@ -424,12 +424,14 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     <div class="row">
         <div class="col-4 d-flex">
     <div class="card">
-  <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+  <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
    <h3>Baucampus Starter</h3>
   </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center">
+  <ul class="list-group list-group-flush text-center text-dark">
     <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichnis</li>
+    <hr>
     <li class="list-group-item">Listung als Servicepartner(Baucampus intern)</li>
+    <hr>
     <li class="list-group-item">kostenlos</li>
   </ul>
   <br>
@@ -440,15 +442,20 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
    
     <div class="col-4 d-flex">
     <div class="card">
-    <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
   <h3>Baucampus Classic</h3>
   </div><div class="card-body">
   <ul class="list-group list-group-flush text-center pb-5">
     <li class="list-group-item">Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
+    <hr>
     <li class="list-group-item">Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</li>
+    <hr>
     <li class="list-group-item">Regelmäßige Schulungen und Unterstützung in des Bauwesens</li>
+    <hr>
     <li class="list-group-item">Persönlicher Support und Betreuung</li>
+    <hr>
     <li class="list-group-item">Feste monatliche Pauschale</li>
+    <hr>
     <li class="list-group-item"><b> 400 €</b> pro Monat</li>
   </ul>
   <br>
@@ -458,20 +465,25 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     </div>
     <div class="col-4 d-flex">
     <div class="card">
-    <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#7081FF">
   <h3>Baucampus Flex</h3>
   </div><div class="card-body">
   <ul class="list-group list-group-flush text-center">
     <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichniso</li>
+    <hr>
     <li class="list-group-item">Zugang zu Vorlagen & Datenbanken</li>
+    <hr>
     <li class="list-group-item">Professionelles Online-Marketing</li>
+    <hr>
     <li class="list-group-item">Regionale Webseite im Internet</li>
+    <hr>
     <li class="list-group-item"><b>15%</b> Umsatzbeteiligung</li>
   </ul>
   <br>
   <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
     </div>
 </div>
+    </div>
     </div>
     </div>
     </div>
@@ -497,21 +509,29 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
         </video>
 
 
+    <div class="container-timeline container-fluid px-5 my-5">
+  <div class="row justify-content-center">
+      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="card-body p-0">
+          <div class="row g-0">
+            <div class="col-4 d-flex bg-image"><img src="pictures/13.jpg" alt="" class="img-fluid" ></div>
+            <div class="col-8 p-5">
+              
+                <h3 class="text-center">Kontakt</h3>
+                
+              
 
+              <!-- * * * * * * * * * * * * * *
+          // * * SB Forms Contact Form * *
+          // * * * * * * * * * * * * * * *
 
+          // This form is pre-integrated with SB Forms.
+          // To make this form functional, sign up at
+          // https://startbootstrap.com/solution/contact-forms
+          // to get an API token!
+          -->
 
-
-
-
-
-    <div class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-10 offset-1 mt-5">
-                <div class="card">
-                    <div class="card-header bg-secondary">
-                        <h3 class="text-white text-center">Kontakt</h3>
-                    </div>
-                    <div class="card-body">
+          <div class="card-body">
                         @if(Session::has('success'))
                             <div class="alert alert-success">
                                 {{Session::get('success')}}
@@ -575,14 +595,17 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                             </div>
                         </form>
                     </div>
-                </div>
+
             </div>
+          </div>
+
         </div>
+      </div>
     </div>
+  </div>
+</div>
 <!-- Slider Grid -->
-<div class="container mb-5 mt-5">
-<h2 class="text-center" style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kooperationspartner</h2>
-    </div>
+
 <div class="slider">
 	<div class="slide-track">
 		<div class="slide">
