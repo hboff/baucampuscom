@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style-timeline.css">
     <link rel="stylesheet" href="/w3.css">
     <link rel="stylesheet" href="/osk-style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="https://baucampus.ch/style.css">
     <link rel="stylesheet" type="text/css" href="/kontakt-style-neu.css">
@@ -29,6 +29,15 @@ a:hover{
         color: white;
         text-decoration: none;
 
+      }
+      .card a{
+        border: 2px solid green;
+      }
+.card a:hover{
+        text-decoration: none;
+      }
+      .card button{
+        border: 2px solid green;
       }
  .slider {
 	 background: white;
@@ -240,8 +249,6 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                         style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
                 </div>
                 <div class="w3-half w3-container">
-                            <p>Baucampus - Gemeinsam in eine bessere Zukunft</p>
-
                     <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kunden finden
                         Experten - Experten finden Kunden</h2>
                     <p>Wir glauben an die Kraft der Zusammenarbeit und sind der Meinung, dass wir gemeinsam mehr
@@ -389,68 +396,88 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             </div>
         </div>
   <!-- Grid -->
-  <div class="w3-row-padding container-plans" id="plans">
-    <div class="w3-center">
-       <h3>Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!</h3>
-        <p>Werden Sie Teil unseres exklusiven Expertennetzwerks und profitieren Sie von einer risikolosen und fairen Partnerschaft. Treten Sie einer starken Gemeinschaft bei, die geballtes Fachwissen und modernste Geschäftsstrukturen vereint. Seien Sie Teil einer Elite-Gruppe von Bausachverständigen und sichern Sie sich jetzt schnell Ihren Platz in unserem stetig wachsenden Netzwerk. Werden Sie Teil der besten und erweitern Sie Ihr Netzwerk! (Schließen Sie sich den Besten an, werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!")
+
+  
+        <div class="w3-container"
+            style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
+            <div class="w3-row">
+                <div class="w3-half w3-container">
+                    <img src="pictures/9.jpg" alt="Mein Haus"
+                        style="width:100%;min-height:350px;max-height:100vh; object-fit: cover; object-position:center;">
+                </div>
+                <div class="w3-half w3-container">
+                    <h2 style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!</h2>
+                    <p>Werden Sie Teil unseres exklusiven Expertennetzwerks und profitieren Sie von einer risikolosen und fairen Partnerschaft. Treten Sie einer starken Gemeinschaft bei, die geballtes Fachwissen und modernste Geschäftsstrukturen vereint. Seien Sie Teil einer Elite-Gruppe von Bausachverständigen und sichern Sie sich jetzt schnell Ihren Platz in unserem stetig wachsenden Netzwerk. Werden Sie Teil der besten und erweitern Sie Ihr Netzwerk! (Schließen Sie sich den Besten an, werden Sie Teil der Baucampus-Expertengruppe und starten Sie jetzt!")
 </p>
-    <h3>Partnerschafts-Modelle</h3>
+                </div>
+            </div>
+        </div>
+
+  <div class="container-plans" id="plans">
+   
+<div class="w3-center pb-5 pt-5">
+    <h2 class="border-bottom:solid 5px #c4c4c4;">Partnerschafts-Modelle</h2>
     <p>Wählen Sie das Partnerschafts-Modell, das am besten zu Ihren Bedürfnissen passt.</p>
+    
     </div>
 
-    <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Starter</li>
-        <li class="w3-padding-16"><b>Aufnahme in das Baucampus Gutachterverzeichnis</li>
-        <li class="w3-padding-16"><b>Listung als Servicepartner(Baucampus intern)</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">kostenlos</h2>
-          <span class="w3-opacity"></span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
+    <div class="row">
+        <div class="col-4 d-flex">
+    <div class="card">
+  <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+   <h3>Baucampus Starter</h3>
+  </div><div class="card-body">
+  <ul class="list-group list-group-flush text-center">
+    <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichnis</li>
+    <li class="list-group-item">Listung als Servicepartner(Baucampus intern)</li>
+    <li class="list-group-item">kostenlos</li>
+  </ul>
+  <br>
+  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+    </div>
+</div>
+    </div>
+   
+    <div class="col-4 d-flex">
+    <div class="card">
+    <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+  <h3>Baucampus Classic</h3>
+  </div><div class="card-body">
+  <ul class="list-group list-group-flush text-center pb-5">
+    <li class="list-group-item">Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
+    <li class="list-group-item">Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</li>
+    <li class="list-group-item">Regelmäßige Schulungen und Unterstützung in des Bauwesens</li>
+    <li class="list-group-item">Persönlicher Support und Betreuung</li>
+    <li class="list-group-item">Feste monatliche Pauschale</li>
+    <li class="list-group-item"><b> 400 €</b> pro Monat</li>
+  </ul>
+  <br>
+  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+    </div>
+</div>
+    </div>
+    <div class="col-4 d-flex">
+    <div class="card">
+    <div class="card-header bg-secondary text-white text-center p-4 text-uppercase">
+  <h3>Baucampus Flex</h3>
+  </div><div class="card-body">
+  <ul class="list-group list-group-flush text-center">
+    <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichniso</li>
+    <li class="list-group-item">Zugang zu Vorlagen & Datenbanken</li>
+    <li class="list-group-item">Professionelles Online-Marketing</li>
+    <li class="list-group-item">Regionale Webseite im Internet</li>
+    <li class="list-group-item"><b>15%</b> Umsatzbeteiligung</li>
+  </ul>
+  <br>
+  <a href="#" class="btn btn-success position-absolute bottom-0 start-50 translate-middle-x mb-5">Sign Up</a>
+    </div>
+</div>
+    </div>
+    </div>
     </div>
 
-    <div class="w3-third w3-margin-bottom" style="padding-right:10px; padding-left:10px;">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Classic</li>
-        <li class="w3-padding-16"><b>Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
-        <li class="w3-padding-16"><b>Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</li>
-        <li class="w3-padding-16"><b>Regelmäßige Schulungen und Unterstützung in des Bauwesens</li>
-        <li class="w3-padding-16"><b>Persönlicher Support und Betreuung</li>
-        <li class="w3-padding-16"><b>Feste monatliche Pauschale</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">400 €</h2>
-          <span class="w3-opacity">pro Monat</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
 
-    <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-grey w3-xlarge w3-padding-32">Baucampus Flex</li>
-        <li class="w3-padding-16"><b>Aufnahme in das Baucampus Gutachterverzeichnis</li>
-        <li class="w3-padding-16"><b>Zugang zu Vorlagen & Datenbanken</li>
-        <li class="w3-padding-16"><b>Professionelles Online-Marketing</li>
-        <li class="w3-padding-16"><b>Regionale Webseite im Internet</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide"> 15%</h2>
-          <span class="w3-opacity">Umsatzbeteiligung</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-
-        <div id="vision" class="w3-container"
+        <div class="w3-container"
             style="height:100vh;display: flex;align-items: center;justify-content: center; margin-left:15%!important;margin-right:15%!important">
             <div class="w3-row">
                 <div class="w3-half w3-container">
@@ -481,8 +508,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
         <div class="row mt-5 mb-5">
             <div class="col-10 offset-1 mt-5">
                 <div class="card">
-                    <div class="card-header bg-primary">
-                        <h3 class="text-white">Laravel 9 Contact US Form Example - ItSolutionStuff.com</h3>
+                    <div class="card-header bg-secondary">
+                        <h3 class="text-white text-center">Kontakt</h3>
                     </div>
                     <div class="card-body">
                         @if(Session::has('success'))
@@ -495,7 +522,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <strong>Name:</strong>
+                                        <p>Name:</p>
                                         <input type="text" name="name" class="form-control" placeholder="Name" value="{{ old('name') }}">
                                         @if ($errors->has('name'))
                                             <span class="text-danger">{{ $errors->first('name') }}</span>
@@ -504,8 +531,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <strong>Email:</strong>
-                                        <input type="text" name="email" class="form-control" placeholder="Email" value="{{ old('email') }}">
+                                        <p>E-Mail:</p>
+                                        <input type="text" name="email" class="form-control" placeholder="E-Mail" value="{{ old('email') }}">
                                         @if ($errors->has('email'))
                                             <span class="text-danger">{{ $errors->first('email') }}</span>
                                         @endif
@@ -515,8 +542,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <strong>Phone:</strong>
-                                        <input type="text" name="phone" class="form-control" placeholder="Phone" value="{{ old('phone') }}">
+                                        <p>Telefonnummer:</p>
+                                        <input type="text" name="phone" class="form-control" placeholder="Telefonnummer" value="{{ old('phone') }}">
                                         @if ($errors->has('phone'))
                                             <span class="text-danger">{{ $errors->first('phone') }}</span>
                                         @endif
@@ -524,7 +551,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <strong>Subject:</strong>
+                                        <p>Subject:</p>
                                         <input type="text" name="subject" class="form-control" placeholder="Subject" value="{{ old('subject') }}">
                                         @if ($errors->has('subject'))
                                             <span class="text-danger">{{ $errors->first('subject') }}</span>
@@ -535,7 +562,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <strong>Message:</strong>
+                                        <p>Nachricht:</p>
                                         <textarea name="message" rows="3" class="form-control">{{ old('message') }}</textarea>
                                         @if ($errors->has('message'))
                                             <span class="text-danger">{{ $errors->first('message') }}</span>
@@ -552,22 +579,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             </div>
         </div>
     </div>
-
-
-        <div id="map" style="width:100%; height:400px;" class="mt-5"></div>
-        </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
-        <script>
-            var map = L.map('map').setView([51.165691, 10.451526], 5);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-        </script>
-
 <!-- Slider Grid -->
-<h2>Kooperationspartner</h2>
+<div class="container mb-5 mt-5">
+<h2 class="text-center" style="border-bottom:solid 5px #c4c4c4; font-family:Montserrat,sans-serif;">Kooperationspartner</h2>
+    </div>
 <div class="slider">
 	<div class="slide-track">
 		<div class="slide">
@@ -637,6 +652,20 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 		</div>
 	</div>
 </div>
+
+        <div id="map" style="width:100%; height:400px;"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
+        <script>
+            var map = L.map('map').setView([51.165691, 10.451526], 5);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+        </script>
+
+
 
 
 

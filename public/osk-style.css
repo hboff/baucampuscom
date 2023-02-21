@@ -1,3 +1,13 @@
+.container-plans .card {
+  transition: all 0.3s;
+}
+
+.container-plans .card:hover {
+  transform: scale(1.15);
+}
+
+
+
       .w3-osk-customs{z-index:5000;   backdrop-filter: invert(.2) blur(10px);}
        .viewport-header {
          position: relative;
@@ -138,7 +148,7 @@
       }
 
       .container-plans {
-        max-width: 1070px;
+        max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.5rem;
       }
@@ -148,3 +158,20 @@
       }
 
       
+      .container-plans h2:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 40%;
+      height: 3px;
+      background: #c4c4c4;
+      left: 30%;
+      }
+
+      .plans {
+        border: 2px solid black;
+        border-radius: 25px;
+
+      }
+
+
