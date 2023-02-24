@@ -714,8 +714,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             <div class="w3-row"
                 style="padding-left:10vh; padding-top:2vh; padding-bottom:2vh; border-top:1px solid #EBEBED; font-size:14px;">
                 <div class="w3-third w3-container">
-                    <a href="">Impressum</a>
-                    <a href="">Datenschutzerklärung</a>
+                    <a href="/impressum">Impressum</a>
+                    <a href="/datenschutzerklaerung">Datenschutzerklärung</a>
 
                 </div>
                 <div class="w3-third w3-container">

@@ -19,5 +19,11 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/impressum', function () {
+    return view('index');
+});
+Route::get('/datenschutzerklaerung', function () {
+    return view('index');
+});
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');
