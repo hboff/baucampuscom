@@ -20,10 +20,10 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/impressum', function () {
-    return view('index');
+    return view('impressum');
 });
 Route::get('/datenschutzerklaerung', function () {
-    return view('index');
+    return view('datenschutzerklaerung');
 });
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');
