@@ -669,15 +669,34 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
         <div id="map" style="width:100%; height:400px;"></div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
-        <script>
-            var map = L.map('map').setView([51.165691, 10.451526], 5);
+  <script>
+      var map = L.map('map').setView([51.165691, 10.451526], 5);
 
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+      }).addTo(map);
 
-        </script>
+      var coords = [
+        [52.261104, 9.048896],
+        [52.288105, 8.916885],
+        [52.261104, 9.048896],
+        [52.265873, 6.792405],
+        [51.340632, 12.374733],
+        [51.680409, 7.815197],
+        [53.619591, 10.867266],
+        [47.767274, 11.157493],
+        [50.011974, 8.712391],
+        [50.668124, 7.585046],
+        [52.517037, 13.388860],
+        [50.992930, 7.127738],
+        [50.555420, 9.975479],
+        [49.301781, 8.163521]
+      ];
 
+      for (var i = 0; i < coords.length; i++) {
+        L.marker([coords[i][0], coords[i][1]]).addTo(map);
+      }
+    </script>
 
 
 
