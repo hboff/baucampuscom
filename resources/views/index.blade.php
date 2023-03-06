@@ -288,7 +288,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
                             <img src="pictures/step-2.png" style="width: 100%;" alt="">
-                            <h2 class="display-3">Card Title</h2>
+                            <h2 class="display-3">Marketing</h2>
                         </div>
                         <div class="date">Step 2</div>
                         <p>Baucampus bietet seinen Partnern:</p>
@@ -308,7 +308,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <div class="timeline-content timeline-card pb-3 js--fadeInLeft">
                         <div class="timeline-img-header">
                             <img src="pictures/step-3.jpg" style="width: 100%;" alt="">
-                            <h2 class="display-3">Card Title</h2>
+                            <h2 class="display-3">Netzwerk</h2>
                         </div>
                         <div class="date">Step 3</div>
                         <p>Netzwerkgedanke nimmt eine zentrale Stellung bei Baucampus ein und wird gelebt</p>
@@ -328,7 +328,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
                             <img src="pictures/step-4.jpg" style="width: 100%;" alt="">
-                            <h2 class="display-3">Card Title</h2>
+                            <h2 class="display-3">Kundenzufriedenheit</h2>
                         </div>
                         <div class="date">Step 4</div>
                         <p>Kundenbindung/Kundenzufriedenheit</p>
@@ -348,10 +348,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <div class="timeline-content timeline-card pb-3 js--fadeInLeft">
                         <div class="timeline-img-header">
                             <img src="pictures/step-5.jpg" style="width: 100%;" alt="">
-                            <h2 class="display-3">Card Title</h2>
+                            <h2 class="display-3">Selbständigkeit</h2>
                         </div>
                         <div class="date">Step 5</div>
-                        <p>Baucampus - wie wir arbeiten. Das Zusammenspiel von Bausachverständigen und Kunden ist uns wihtig. Daher treten die Kunden direket mit unseren Partnern in Kontakt, per Telefon oder E-mail. Die Partner nehmen die Aufträge selbst an und bieten ihre Leistungen dem Kunden selbständig an. Es gibt keine Mindestauftragsverpflichtung. Auftragsannahme, die terminliche Festlegung und ihre Auftragsauslastung bleiben in ihrer Hand.</p>
+                        <p>Baucampus - wie wir arbeiten. Das Zusammenspiel von Bausachverständigen und Kunden ist uns wichtig. Daher treten die Kunden direket mit unseren Partnern in Kontakt, per Telefon oder E-mail. Die Partner nehmen die Aufträge selbst an und bieten ihre Leistungen dem Kunden selbständig an. Es gibt keine Mindestauftragsverpflichtung. Auftragsannahme, die terminliche Festlegung und ihre Auftragsauslastung bleiben in ihrer Hand.</p>
                     </div>
                 </div>
 
@@ -362,10 +362,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <div class="timeline-content timeline-card pb-3 js--fadeInRight">
                         <div class="timeline-img-header">
                             <img src="pictures/step-6.jpg" style="width: 100%;" alt="">
-                            <h2 class="display-3">Card Title</h2>
+                            <h2 class="display-3">Informationen</h2>
                         </div>
                         <div class="date">Step 6</div>
-                        <p>Was wir brauche. Ihr professioneller Internetauftritt mit Baucampus ist leicht zu verwirklichen: Wir benötigen</p>
+                        <p>Was wir brauchen. Ihr professioneller Internetauftritt mit Baucampus ist leicht zu verwirklichen: Wir benötigen</p>
                             <ul>
                                 <li>ein Foto von Ihnen </li>
                                 <li>eine Telefonnummer</li>
