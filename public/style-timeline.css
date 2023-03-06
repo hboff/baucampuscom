@@ -56,17 +56,7 @@ header p {
   right: auto;
   left: 0;
 }
-.timeline-item:nth-child(even) .timeline-content::after {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  top: 15px;
-  left: -15px;
-  border-width: 10px 15px 10px 0;
-  border-color: transparent #f5f5f5 transparent transparent;
-}
+
 .timeline-item::after {
   content: "";
   display: block;
@@ -81,22 +71,11 @@ header p {
   background: #f5f5f5;
   box-shadow: 15px 25px 25px -15px rgba(0, 0, 0, 0.8);
 }
-.timeline-content::after {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  top: 15px;
-  right: -15px;
-  border-width: 10px 0 10px 15px;
-  border-color: transparent transparent transparent #f5f5f5;
-}
 
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #7081FF;
+  background: #FC7233;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -141,7 +120,7 @@ blockquote {
 }
 
 .date {
-  background: #7081FF;
+  background: #FC7233;
   display: inline-block;
   color: #FFFFFF;
   padding: 10px;
