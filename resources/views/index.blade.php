@@ -522,7 +522,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <p>Name:</p>
+                                        <p>Vorname:</p>
                                         <input type="text" name="name" class="form-control" placeholder="Name" value="{{ old('name') }}">
                                         @if ($errors->has('name'))
                                             <span class="text-danger">{{ $errors->first('name') }}</span>
@@ -531,7 +531,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <p>E-Mail:</p>
+                                        <p>Nachname:</p>
                                         <input type="text" name="email" class="form-control" placeholder="E-Mail" value="{{ old('email') }}">
                                         @if ($errors->has('email'))
                                             <span class="text-danger">{{ $errors->first('email') }}</span>
@@ -551,7 +551,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <p>Subject:</p>
+                                        <p>E-mail:</p>
                                         <input type="text" name="subject" class="form-control" placeholder="Subject" value="{{ old('subject') }}">
                                         @if ($errors->has('subject'))
                                             <span class="text-danger">{{ $errors->first('subject') }}</span>
