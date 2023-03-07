@@ -494,7 +494,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
         </div>
         
         <video id="video" width="100%" controls>
-            <source src="alterminddesktop.mp4" type="video/mp4">
+            <source src="baucampus-commercial.mp4" type="video/mp4">
             Your browser does not support HTML video.
         </video>
 
