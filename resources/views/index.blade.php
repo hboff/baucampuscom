@@ -706,16 +706,18 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <h3 style="color:#26292c;margin-bottom:4vh;">Kontakt</h3>
                     <p style="font-size:16px;">Tel.: 05722 / 913800</p>
                     <p style="font-size:16px;">Fax: 05722 / 289 0638</p>
-                    <p style="font-size:16px; margin-bottom:10px;">E-Mail: oskar_lohse@baucampus.ch</p>
+                    <p style="font-size:16px; margin-bottom:10px;">E-Mail: kontakt@baucampus.com</p>
 
                 </div>
                 <div class="w3-third w3-container">
                     <h3 style="color:#26292c;">Themen</h3>
                     <p><a href="https://baucampus.de">Baucampus Deutschland</a></p>
                     <p><a href="https://baucampus.at">Baucampus Österreich</a></p>
-                    <p><a href="https://baucampus.de">Baucampus Schweiz</a></p>
-                    <p><a href="https://baucampus.de">Baucampus Frankreich</a></p>
-
+                    <p><a href="https://baucampus.ch">Baucampus Schweiz</a></p>
+                    <p><a href="https://baucampus.fr">Baucampus Frankreich</a></p>
+                    <p><a href="https://baucampus.be">Baucampus Belgien</a></p>
+                    <p><a href="https://baucampus.nl">Baucampus Niederlande</a></p>
+                    <p><a href="https://baucampus.es">Baucampus Spanien</a></p>
                 </div>
             </div>
 
@@ -731,10 +733,6 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
                 </div>
                 <div class="w3-third w3-container">
-                    <a href="https://baucampus.de">Baucampus.de</a>
-                    <a href="https://baucampus.at">Baucampus.at</a>
-                    <a href="https://baucampus.ch">Baucampus.ch</a>
-                    <a href="https://baucampus.de">Baucampus.fr</a>
 
                 </div>
             </div>
