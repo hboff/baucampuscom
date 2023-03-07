@@ -186,22 +186,12 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 style="padding-left:100px;">Baucampus</a>
             <a href="https://baucampus.com/kontakt" class=" w3-hide-small w3-right hover-underline-animation oskkk"
                 style="padding-right:100px;">Kontakt</a>
-            <a href="#5" class=" w3-hide-small w3-right hover-underline-animation oskkk">Vorteile</a>
-            <a href="#4" class=" w3-hide-small w3-right hover-underline-animation oskkk">Team</a>
-            <a href="#3" class=" w3-hide-small w3-right hover-underline-animation oskkk">Netzwerk</a>
-            <a href="#2" class=" w3-hide-small w3-right hover-underline-animation oskkk">Vision</a>
-
-
-
-
         </div>
 
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="https://baucampus.ch" class="w3-bar-item w3-button" onclick="toggleFunction()">Baucampus</a>
-            <a href="https://baucampus.ch" class="w3-bar-item w3-button" onclick="toggleFunction()">Ideen</a>
-            <a href="https://baucampus.ch" class="w3-bar-item w3-button" onclick="toggleFunction()">Über Uns</a>
-            <a href="https://baucampus.ch" class="w3-bar-item w3-button" onclick="toggleFunction()">Kontakt</a>
+            <a href="https://baucampus.com" class="w3-bar-item w3-button" onclick="toggleFunction()">Baucampus</a>
+            <a href="https://baucampus.com/kontakt" class="w3-bar-item w3-button" onclick="toggleFunction()">Kontakt</a>
         </div>
     </div>
     <script>
