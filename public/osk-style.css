@@ -189,4 +189,10 @@
         background-color: #4162A4;
         border-color: #4162A4
     }
+
+    .btn-primary:hover {
+      color: white;
+      background-color: #4162A4;
+      border-color: #4162A4
+  }
     
