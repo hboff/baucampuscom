@@ -38,7 +38,7 @@ a:hover{
       }
       .card button{
         border: 2px solid #4162A4;
-        background: #4162A4;   
+           
       }
  .slider {
 	 background: white;
