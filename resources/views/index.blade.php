@@ -416,7 +416,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 </div>
     </div>
    
-    <div class="col-sm-12 col-md-4 pt-5 pb-5">
+    <div class="col-sm-12 col-md-4 mb-5 mt-5 pt-5 pb-5">
     <div class="col card mb-5">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#2344B4">
   <h3>Baucampus Classic</h3>
