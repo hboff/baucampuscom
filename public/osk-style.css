@@ -157,6 +157,10 @@
   padding: 0 1.5rem;
       }
 
+      .container-cards {
+        max-width: 1100px;
+      }
+
       .container-plans {
         max-width: 1100px;
   margin: 0 auto;

@@ -374,7 +374,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   <!-- Grid -->
 
   
-  <div class="container-timeline mb-5 pb-5 mt-5 pt-5">
+  <div class="container-cards mb-5 pb-5 mt-5 pt-5">
             <div class="row">
                 <div class="col-sm-12 col-md-6 d-flex">
                     <img src="pictures/teil-baucampus.jpg" alt="Mein Haus"
@@ -397,7 +397,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-4 d-flex">
+        <div class="col-sm-12 col-md-3 d-flex">
     <div class="col card mb-5">
   <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#003E57">
    <h3>Baucampus Starter</h3>
@@ -441,7 +441,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 </div>
     </div>
 
-    <div class="col-sm-12 col-md-4 d-flex">
+    <div class="col-sm-12 col-md-3 d-flex">
     <div class="col card mb-5">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#2344B4">
   <h3>Baucampus Flex</h3>
