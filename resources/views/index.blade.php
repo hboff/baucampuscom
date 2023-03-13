@@ -32,6 +32,7 @@ a:hover{
       }
       .card a{
         border: 2px solid #4162A4;
+        background-color: #4162A4;
       }
 .card a:hover{
         text-decoration: none;
