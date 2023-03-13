@@ -31,13 +31,13 @@ a:hover{
 
       }
       .card a{
-        border: 2px solid green;
+        border: 2px solid blue;
       }
 .card a:hover{
         text-decoration: none;
       }
       .card button{
-        border: 2px solid green;
+        border: 2px solid blue;
       }
  .slider {
 	 background: white;
