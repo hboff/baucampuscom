@@ -374,7 +374,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   <!-- Grid -->
 
   
-  <div class="container-cards mb-5 pb-5 mt-5 pt-5">
+  <div class="container-timeline mb-5 pb-5 mt-5 pt-5">
             <div class="row">
                 <div class="col-sm-12 col-md-6 d-flex">
                     <img src="pictures/teil-baucampus.jpg" alt="Mein Haus"
@@ -388,7 +388,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             </div>
         </div>
 <div style="background-color:#363636; padding-bottom: 5%;">
-  <div class="container-plans" id="plans">
+  <div class="container-cards" id="plans">
    
 <div class="w3-center pb-5 pt-5">
     <h2 class="border-bottom:solid 5px #c4c4c4; text-white">Partnerschafts-Modelle</h2>
