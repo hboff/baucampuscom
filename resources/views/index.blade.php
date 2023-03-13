@@ -399,7 +399,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     <div class="row">
         <div class="col-sm-12 col-md-4 d-flex">
     <div class="col card mb-5">
-  <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#00B09E">
+  <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#1084B3">
    <h3>Baucampus Starter</h3>
   </div><div class="card-body">
   <ul class="list-group list-group-flush text-center text-dark pb-5">
@@ -418,7 +418,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
    
     <div class="col-sm-12 col-md-4 d-flex">
     <div class="col card mb-5">
-    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#32FCE8">
+    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#1084B3">
   <h3>Baucampus Classic</h3>
   </div><div class="card-body">
   <ul class="list-group list-group-flush text-center pb-5">
@@ -443,7 +443,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 
     <div class="col-sm-12 col-md-4 d-flex">
     <div class="col card mb-5">
-    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#00B09E">
+    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#1084B3">
   <h3>Baucampus Flex</h3>
   </div><div class="card-body">
   <ul class="list-group list-group-flush text-center pb-5">
