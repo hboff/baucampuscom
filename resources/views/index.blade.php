@@ -417,7 +417,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
     </div>
    
     <div class="col-sm-12 col-md-4 d-flex">
-    <div class="col card mb-5 ">
+    <div class="col card mb-5">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#2344B4">
   <h3>Baucampus Classic</h3>
   </div><div class="card-body">
@@ -441,7 +441,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 </div>
     </div>
 
-    <div class="col-sm-12 col-md-4 d-felx">
+    <div class="col-sm-12 col-md-4 d-flex">
     <div class="col card mb-5 align-self-stretch">
     <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#2344B4">
   <h3>Baucampus Flex</h3>
