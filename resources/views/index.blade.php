@@ -410,7 +410,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   <br>
   <div class="position-absolute bottom-0 start-50 translate-middle-x">
   <p class="text-dark text-center"><b>kostenlos</b><p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
+  <a href="#" class="btn btn-outline-primary btn-primary">Sign Up</a>
     </div>
     </div>
 </div>
@@ -435,7 +435,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   <br>
   <div class="position-absolute bottom-0 start-50 translate-middle-x">
   <p class="text-dark text-center"><b> 400 €</b> pro Monat<p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
+  <a href="#" class="btn btn-outline-primary btn-primary">Sign Up</a>
     </div>
     </div>
 </div>
@@ -458,7 +458,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
   <br>
   <div class="position-absolute bottom-0 start-50 translate-middle-x">
   <p class="text-dark text-center"><b>15%</b> Umsatzbeteiligung<p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
+  <a href="#" class="btn btn-outline-primary btn-primary">Sign Up</a>
     </div>
     </div>
 </div>
