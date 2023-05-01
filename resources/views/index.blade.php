@@ -389,6 +389,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
         </div>
+        </div>
         <div style="background: #363636;">
         <div class="container py-4 py-xl-5">
             <div class="row mb-5">
