@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="https://baucampus.ch/style.css">
     <link rel="stylesheet" type="text/css" href="/kontakt-style-neu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+    <link rel="stylesheet" href="assets/css/Features-Cards-icons.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Clean-badges.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style >
