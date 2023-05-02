@@ -389,8 +389,8 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
         </div>
-        <div style="background: #363636;">
-        <div class="container-plans py-4 py-xl-5">
+        <div style="background: #363636;" class="mb-xxl-5 pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-4">
+        <div class="container-plans py-4 py-xl-5 mb-xxl-0 pb-xxl-5">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2 class="text-white">Partnerschafts-Modelle</h2>
@@ -398,9 +398,9 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
             </div>
             <div class="row gy-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
                 <div class="col px-xxl-4 px-xl-4 px-lg-3">
-                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 18px;border-style: none;">
-                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Starter</h4>
-                        <h4 class="text-uppercase text-center text-white py-xl-0 mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2">Kostenlos</h4>
+                    <div class="card h-100 mt-xxl-0" style="background: linear-gradient(-58deg, #4162a4 49%, #99aacb 99%), #4162a4;box-shadow: 16px 16px 18px var(--bs-black);border-style: none;">
+                        <h4 class="text-uppercase text-center my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2 mt-xxl-4" style="color: rgba(255,255,255,0.64);">Baucampus Starter</h4>
+                        <h4 class="text-uppercase text-center text-white py-xl-0 mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-xxl-4">Kostenlos</h4>
                         <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);border-style: none;border-radius: 6px;border-top-left-radius: 0px;border-top-right-radius: 0px;">
                             <div>
                                 <ul class="list-unstyled me-xl-0 mb-md-5 mb-sm-5">
@@ -411,14 +411,14 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
                                             </svg></span><span>Listung als Servicepartner (Baucampus intern)</span></li>
                                 </ul>
-                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: linear-gradient(0deg, #4162a4 0%, #99aacb), #4162a4;border-style: inherit;">Sign Up</a>
                         </div>
                     </div>
                 </div>
                 <div class="col px-xxl-4 px-xl-4 px-lg-3">
-                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
-                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Classic</h4>
-                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">400€ / Monat</h4>
+                    <div class="card h-100" style="background: linear-gradient(-58deg, #4162a4 53%, #99aacb 100%), #4162a4;box-shadow: 16px 16px 20px var(--bs-black);border-style: none;">
+                        <h4 class="text-uppercase text-center my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2 mt-xxl-4" style="color: rgba(255,255,255,0.64);">Baucampus Classic</h4>
+                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3 mb-xxl-4">400€ / Monat</h4>
                         <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);box-shadow: 0px 0px;border-style: none;border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;">
                             <div class="mb-xxl-5">
                                 <ul class="list-unstyled mb-xl-5 mb-lg-4 mb-md-5 mb-sm-5">
@@ -438,14 +438,14 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
                                             </svg></span><span>Feste monatliche Pauschale</span></li>
                                 </ul>
-                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: linear-gradient(0deg, #4162a4 0%, #99aacb), #4162a4;border-style: inherit;">Sign Up</a>
                         </div>
                     </div>
                 </div>
                 <div class="col px-xxl-4 px-xl-4 px-lg-3">
-                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
-                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Flex</h4>
-                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">15% Umsatzbeteiligung</h4>
+                    <div class="card h-100" style="background: linear-gradient(-58deg, #4162a4 51%, #99aacb), #4162a4;box-shadow: 16px 16px 20px var(--bs-black);border-style: none;">
+                        <h4 class="text-uppercase text-center my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2 mt-xxl-4" style="color: rgba(255,255,255,0.64);">Baucampus Flex</h4>
+                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3 mb-xxl-4">15% Umsatzbeteiligung</h4>
                         <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;border-style: none;">
                             <div>
                                 <ul class="list-unstyled mb-md-5 mb-sm-5">
@@ -462,7 +462,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                                                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
                                             </svg></span><span>Regionale Webseite im Internet</span></li>
                                 </ul>
-                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: linear-gradient(0deg, #4162a4 0%, #99aacb), #4162a4;border-style: inherit;">Sign Up</a>
                         </div>
                     </div>
                 </div>
