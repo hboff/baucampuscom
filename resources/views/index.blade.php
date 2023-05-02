@@ -613,7 +613,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 		</div>
 
 		<div class="slide">
-			<a href="https://bauherrenverband.com/" title="Der Bauherrenverband"><img src="/picturesbauherrenverband-small.png" height="100" width="250" alt="" /></a>
+			<a href="https://bauherrenverband.com/" title="Der Bauherrenverband"><img src="/pictures/bauherrenverband-small.png" height="100" width="250" alt="" /></a>
 		</div>
 		<div class="slide">
 			<a href="https://eigenheimverband.de/" title="Eigenheimverband"><img src="/pictures/eigenheimverband.png" height="100" width="250" alt="" /></a>
