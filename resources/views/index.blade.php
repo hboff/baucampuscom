@@ -387,86 +387,85 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
         </div>
-<div style="background-color:#363636; padding-bottom: 5%;">
-  <div class="container-plans" id="plans">
-   
-<div class="w3-center pb-5 pt-5">
-    <h2 class="border-bottom:solid 5px #c4c4c4; text-white">Partnerschafts-Modelle</h2>
-    <p>Wählen Sie das Partnerschafts-Modell, das am besten zu Ihren Bedürfnissen passt.</p>
-    
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12 col-md-4 d-flex">
-    <div class="col card mb-5">
-  <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#4162A4">
-   <h3>Baucampus Starter</h3>
-  </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center text-dark pb-5">
-    <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichnis</li>
-    <hr>
-    <li class="list-group-item">Listung als Servicepartner(Baucampus intern)</li>
-  </ul>
-  <br>
-  <div class="position-absolute bottom-0 start-50 translate-middle-x">
-  <p class="text-dark text-center"><b>kostenlos</b><p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
-    </div>
-    </div>
-</div>
-    </div>
-   
-    <div class="col-sm-12 col-md-4 d-flex">
-    <div class="col card mb-5">
-    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#466AB0">
-  <h3>Baucampus Classic</h3>
-  </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center pb-5">
-    <li class="list-group-item">Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</li>
-    <hr>
-    <li class="list-group-item">Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</li>
-    <hr>
-    <li class="list-group-item">Regelmäßige Schulungen und Unterstützung in des Bauwesens</li>
-    <hr>
-    <li class="list-group-item">Persönlicher Support und Betreuung</li>
-    <hr>
-    <li class="list-group-item">Feste monatliche Pauschale</li>
-  </ul>
-  <br>
-  <div class="position-absolute bottom-0 start-50 translate-middle-x">
-  <p class="text-dark text-center"><b> 400 €</b> pro Monat<p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
-    </div>
-    </div>
-</div>
-    </div>
-
-    <div class="col-sm-12 col-md-4 d-flex">
-    <div class="col card mb-5">
-    <div class="card-header text-white text-center p-4 text-uppercase" style="background-color:#4162A4">
-  <h3>Baucampus Flex</h3>
-  </div><div class="card-body">
-  <ul class="list-group list-group-flush text-center pb-5">
-    <li class="list-group-item">Aufnahme in das Baucampus Gutachterverzeichniso</li>
-    <hr>
-    <li class="list-group-item">Zugang zu Vorlagen & Datenbanken</li>
-    <hr>
-    <li class="list-group-item">Professionelles Online-Marketing</li>
-    <hr>
-    <li class="list-group-item">Regionale Webseite im Internet</li>
-  </ul>
-  <br>
-  <div class="position-absolute bottom-0 start-50 translate-middle-x">
-  <p class="text-dark text-center"><b>15%</b> Umsatzbeteiligung<p>
-  <a href="#" class="btn btn-primary">Sign Up</a>
-    </div>
-    </div>
-</div>
-    </div>
-    </div>
-
-    </div>
-    </div>
+  <div style="background: #363636;">
+        <div class="container-plans py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 class="text-white">Partnerschafts-Modelle</h2>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
+                <div class="col">
+                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 18px;border-style: none;">
+                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Starter</h4>
+                        <h4 class="text-uppercase text-center text-white py-xl-0 mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2">Kostenlos</h4>
+                        <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);border-style: none;border-radius: 6px;border-top-left-radius: 0px;border-top-right-radius: 0px;">
+                            <div>
+                                <ul class="list-unstyled me-xl-0 mb-md-5 mb-sm-5">
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span class="me-xl-0 pe-xl-0">Aufnahme in das Baucampus Gutachterverzeichnis</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Listung als Servicepartner (Baucampus intern)</span></li>
+                                </ul>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
+                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Classic</h4>
+                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">400€ / Monat</h4>
+                        <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);box-shadow: 0px 0px;border-style: none;border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;">
+                            <div class="mb-xxl-5">
+                                <ul class="list-unstyled mb-xl-5 mb-lg-4 mb-md-5 mb-sm-5">
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Zugang zu unserem Netzwerk von Bausachverständigen, Kunden und Partnern</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Zugang zur Baucampus-Plattform mit Tools und Ressourcen zur Geschäftsverbesserung</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Regelmäßige Schulungen und Unterstützung in des Bauwesens</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Persönlicher Support und Betreuung</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Feste monatliche Pauschale</span></li>
+                                </ul>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
+                        <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Flex</h4>
+                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">15% Umsatzbeteiligung</h4>
+                        <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;border-style: none;">
+                            <div>
+                                <ul class="list-unstyled mb-md-5 mb-sm-5">
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Aufnahme in das Baucampus Gutachterverzeichnis</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Zugang zu Vorlagen &amp; Datenbanken</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Professionelles Online-Marketing</span></li>
+                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg></span><span>Regionale Webseite im Internet</span></li>
+                                </ul>
+                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: #4162a4;">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container" style="padding-top:3%;"><h2 class="display-2">Baucampus - Gemeinsam in eine bessere Zukunft</h2></div>
