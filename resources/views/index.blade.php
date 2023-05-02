@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="https://baucampus.ch/style.css">
     <link rel="stylesheet" type="text/css" href="/kontakt-style-neu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+    <link rel="stylesheet" href="/Features-Cards-icons.css">
+    <link rel="stylesheet" href="/Pricing-Clean-badges.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style >
@@ -387,7 +389,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
         </div>
-  <div style="background: #363636;">
+        <div style="background: #363636;">
         <div class="container-plans py-4 py-xl-5">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
@@ -395,7 +397,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                 </div>
             </div>
             <div class="row gy-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
-                <div class="col">
+                <div class="col px-xxl-4 px-xl-4 px-lg-3">
                     <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 18px;border-style: none;">
                         <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Starter</h4>
                         <h4 class="text-uppercase text-center text-white py-xl-0 mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2">Kostenlos</h4>
@@ -413,7 +415,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col px-xxl-4 px-xl-4 px-lg-3">
                     <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
                         <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Classic</h4>
                         <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">400€ / Monat</h4>
@@ -440,7 +442,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col px-xxl-4 px-xl-4 px-lg-3">
                     <div class="card h-100" style="background: #4162a4;box-shadow: 16px 16px 20px;border-style: none;">
                         <h4 class="text-uppercase text-center text-white-50 my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2">Baucampus Flex</h4>
                         <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3">15% Umsatzbeteiligung</h4>
