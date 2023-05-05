@@ -170,49 +170,59 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 <body id="myPage">
 
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style=" backdrop-filter: blur(25px) invert(.2);  background-color: rgba(255, 255, 255, .15);">
-        <div class="container">
-            <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Bau</span><span
-                    style="color: #fff;">Campus</span></a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Über Uns</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Kontakt</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav d-flex flex-row">
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://t.me/Baucampus_bot">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+
+    <div class="w3-top w3-text-white">
+
+        <div class="w3-bar w3-text-white" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-left"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                Baucampus
+            </a>
+
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                Nav<i class="fa fa-bars"></i>
+            </a>
+
+            <a href="https://baucampus.com" class="w3-hide-small w3-left hover-underline-animation oskkk"
+                style="padding-left:100px;">Baucampus</a>
+            <a href="https://baucampus.com/kontakt" class=" w3-hide-small w3-right hover-underline-animation oskkk"
+                style="padding-right:100px;">Kontakt</a>
         </div>
-    </nav>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="https://baucampus.com" class="w3-bar-item w3-button" onclick="toggleFunction()">Baucampus</a>
+            <a href="https://baucampus.com/kontakt" class="w3-bar-item w3-button" onclick="toggleFunction()">Kontakt</a>
+        </div>
+    </div>
+    <script>
+        // Change style of navbar on scroll
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-animate-top" + " w3-osk-customs";
+            } else {
+                navbar.className = navbar.className.replace(" w3-animate-top w3-osk-customs", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+    </script>
+
     <body>
         <div class="w3-display-container w3-animate-opacity w3-center" id="1">
 
