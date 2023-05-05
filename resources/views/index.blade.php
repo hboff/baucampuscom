@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
     <link rel="stylesheet" href="/Features-Cards-icons.css">
     <link rel="stylesheet" href="/Pricing-Clean-badges.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style >
  @keyframes scroll {
@@ -709,6 +709,10 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <p style="font-size:16px;">Fax: 05722 / 289 0638</p>
                     <p style="font-size:16px; margin-bottom:10px;">E-Mail: kontakt@baucampus.com</p>
 
+                    <a href="https://api.whatsapp.com/send/?phone=971561642909&text&type=phone_number&app_absent=0"
+                        class="btn rounded-pill py-2 px-3 float-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/Baucampus_bot" class="btn rounded-pill py-2 px-3 float-telegram" target="_blank"><i
+                            class="fab fa-telegram"></i></a>
                 </div>
                 <div class="w3-third w3-container">
                     <h3 style="color:#26292c;">Themen</h3>
