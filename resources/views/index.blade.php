@@ -199,62 +199,6 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
 </style>
 </head>
 <body id="myPage">
- <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
-    <div class="container">
-      <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Psycho</span><span style="color: #fff;">logist</span></a>
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Offer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Reference</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Contact</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav d-flex flex-row">
-          <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#!">
-              <i class="fas fa-shopping-cart"></i>
-            </a>
-          </li>
-          <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#!">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="#!">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
-
-
         <div class="w3-display-container w3-animate-opacity w3-center" id="1">
 
             <img src="pictures/8.jpg" alt="Mein Haus"
