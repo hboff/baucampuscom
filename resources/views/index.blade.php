@@ -417,30 +417,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                         </div>
                     </div>
                 </div>
-                <div class="col px-xxl-4 px-xl-4 px-lg-3">
-                    <div class="card h-100" style="background: linear-gradient(-58deg, #4162a4 51%, #99aacb), #4162a4;box-shadow: 16px 16px 20px var(--bs-black);border-style: none;">
-                        <h4 class="text-uppercase text-center my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2 mt-xxl-4" style="color: rgba(255,255,255,0.64);">Baucampus Flex</h4>
-                        <h4 class="text-uppercase text-center text-white mb-xl-3 mb-lg-3 mb-md-3 mb-xxl-4">15% Umsatzbeteiligung</h4>
-                        <div class="card-body d-flex flex-column justify-content-between p-4" style="background: var(--bs-card-bg);border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;border-style: none;">
-                            <div>
-                                <ul class="list-unstyled mb-md-5 mb-sm-5">
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Aufnahme in das Baucampus Gutachterverzeichnis</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Zugang zu Vorlagen &amp; Datenbanken</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Professionelles Online-Marketing</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2" style="background: #4162a471;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg" style="font-size: 16px;color: #4562a4;">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Regionale Webseite im Internet</span></li>
-                                </ul>
-                            </div><a class="btn btn-primary fw-semibold d-block w-100" role="button" href="#" style="background: linear-gradient(0deg, #4162a4 0%, #99aacb), #4162a4;border-style: inherit;">Sign Up</a>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
