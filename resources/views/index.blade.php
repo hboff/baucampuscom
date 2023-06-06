@@ -371,7 +371,7 @@ w3-padding w3-display-middle w3-xxlarge" style="background: rgba(255, 255, 255, 
                     <h2 class="text-white">Partnerschafts-Modelle</h2>
                 </div>
             </div>
-            <div class="row gy-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3">
+            <div class="row gy-4 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
                 <div class="col px-xxl-4 px-xl-4 px-lg-3">
                     <div class="card h-100 mt-xxl-0" style="background: linear-gradient(-58deg, #4162a4 49%, #99aacb 99%), #4162a4;box-shadow: 16px 16px 18px var(--bs-black);border-style: none;">
                         <h4 class="text-uppercase text-center my-xl-2 mt-xl-3 mt-lg-3 mt-md-3 mt-sm-2 mt-2 mt-xxl-4" style="color: rgba(255,255,255,0.64);">Baucampus Starter</h4>
